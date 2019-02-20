@@ -1,0 +1,50 @@
+@media  (min-width: 768px) and (max-width: 991px){
+   .no-padding{padding-left:15px;
+   padding-right:15px;}
+}
+
+@media  (min-width: 544px) and (max-width: 768px){
+   .no-padding{padding-left:15px;
+   padding-right:15px;}
+}
+@media screen and (max-width: 736px) 
+{
+	.navbar-toggle
+{
+	margin-top:0px !important
+}
+}
+
+@media screen and (max-width: 480px) 
+{
+.sidebar-page-container {
+    position: relative;
+    padding: 20px 0px 70px;
+}	
+	
+.logo {
+    float: left;
+    padding-top: 0px;
+    margin-top: -18px;
+    height: 44px;
+}
+.info_icons li {
+    float: left;
+    margin: 4px;
+    font-family: 'Poppins';
+    padding-top: 8px;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+}	
+.tag_line h1 {
+    font-size: 20px;
+    color: #fff;
+    margin: 2px 0;
+    font-family: 'OpenSans-Light';
+    float: left;
+    width: 100%;
+    line-height: 30px;
+}
+}
+

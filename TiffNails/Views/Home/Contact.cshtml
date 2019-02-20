@@ -1,0 +1,310 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TIFF NAILS | CONTACT US</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/media.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/css/animate.min.css">
+    <link href="~/css/fonts.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+</head>
+<body>
+    <header>
+        <!--------HEADER_START--------->
+        <div class="top_bar">
+            <!--------TOP_BAR_START--------->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 col-md-5">
+                        <ul class="social_icon">
+                            <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="info_icons">
+                        <div class="col-sm-7 col-md-7">
+                            <ul>
+                                @*<li><span class="fa fa-clock-o"></span>Mon-Sat : 8:00-17:00</li>*@
+
+                                <li><a href="tel:905-458-5801"><span class="fa fa-phone"></span>+1 905-458-5801</a></li>
+                                @*<li><a href="mailto:thuypham77ca@icloud.com"><span class="fa fa-envelope-o"></span>thuypham77ca@icloud.com</a></li>*@
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--------TOP_BR_END--------->
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="~/images/logo.png" class="logo"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav pull-right ">
+                        <li><a href="../index.html">Home</a></li>
+
+                        <li><a href="../about_us.html">About Us</a></li>
+                        <li><a href="../services.html">Services</a></li>
+                        <li><a href="../gallery.html">Gallery</a></li>
+                        <li class="active"><a href="Home/Contact">Contact Us</a></li>
+
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+
+    </header><!--------HEADER_END----------->
+    <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Unit%2012-9980%20Airport%20Road%2C%20Brampton%20Canada+(Your%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/en/custom-google-maps/">Add Google Map to website</a> by <a href="https://www.mapsdirections.info/en/">Measure area on map</a></iframe></div><br />
+    <div class="section_contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <h3 class="size_ryt">CONTACT US</h3>
+                    <ul class="mein_loc">
+                        <li><span class="fa fa-map-marker"></span>Tiff Nails</li>
+                        <li>Unit 12-9980 Airport Road,</li>
+                        <li>Brampton Canada</li>
+                        <br />
+                        <li>
+                            <span class="fa fa-phone"></span>
+                            Telephone : +905-458-5801
+                        </li>
+                        <li>
+                            <span class="fa fa-mobile"></span>
+                            Mobile phone : +905-458-5801
+                        </li>
+                        @*<li><span class="fa fa-fax"></span>FAX : + 00000000</li>*@
+                        <li><span class="fa fa-envelope-o"></span>thuypham77ca@icloud.com</li>
+                    </ul>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="size_left">
+                        <h3>SECONDARY CONTACT</h3>
+                    </div>
+                    <div class="contact-form">
+                        <div id="contact-wrap">
+                            <form>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group" id="name-field">
+                                        <input class="form-control contact-form-field cffield-upper" name="username" id="form-name" placeholder="Name" type="text" required>
+                                        <label id="message1" class="error" style="margin:0px !important;"></label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group" id="email-field">
+                                        <input class="form-control contact-form-field cffield-upper" name="email" id="form-email" placeholder="Email" type="email" required>
+                                        <label id="message2" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group" id="email-field">
+                                        <input class="form-control contact-form-field cffield-upper" name="phn" id="form-email" placeholder="Phone No." type="phn" required>
+                                        <label id="message3" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group" id="email-field">
+                                        <input class="form-control contact-form-field cffield-upper" name="sub" id="form-email" placeholder="Subject" type="sub" required>
+                                        <label id="message4" class="error"></label>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-md-12">
+                                    <div class="form-group form-text text-center" id="message-field">
+                                        <textarea cols="30" rows="6" placeholder="Your message" class="form-control contact-form-field" name="message" id="form-message" required></textarea>
+                                        <label id="message5" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <button id="btnSave" class="btn btn-style-one" type="button">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="heading_custom">
+                    <div class="col-sm-3 col-md-3">
+                        <h4>ABOUT TIFF NAILS</h4>
+                        <p>We have been in this location over 10 years. Proud to provide you all the best product and latest design with high  quality energetic skill team works. </p>
+                        <p>It is a type of artwork that can be done on fingernails and toenails, usually after manicures or pedicures.</p>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                        <h4>NAVIGATION</h4>
+                        <div class="footer_nav">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="../about_us.html">About Us</a></li>
+                                <li><a href="../services.html">Services</a></li>
+                                <li><a href="../gallery.html">Gallery</a></li>
+                                <li><a href="Home/Contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                        <h4>TIFF NAILS LOCATION</h4>
+                        <ul class="footer_loc">
+                            <li><span class="fa fa-map-marker"></span>Tiff Nails</li>
+                            <li>Unit 12-9980 Airport Road,</li>
+                            <li>Brampton Canada</li></br>
+                            <li>
+                                <span class="fa fa-phone"></span>
+                                Telephone : +905-458-5801
+                            </li>
+                            <li>
+                                <span class="fa fa-mobile"></span>
+                                Mobile phone : +905-458-5801
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                        <ul class="footer_time">
+                            <div class="opening_time">
+                                <div class="opening_time_br">
+                                    <h4 class="size_chng">OPENING TIME</h4>
+                                    <li class="timing"><strong>Monday</strong><span>10:00am - 8:00pm</span></li>
+                                    <li class="timing"><strong>Tuesday</strong><span>10:00am - 8:00pm</span></li>
+                                    <li class="timing"><strong>Wednesday</strong><span>10:00am - 8:00pm</span></li>
+                                    <li class="timing"><strong>Thrusday</strong><span>10:00am - 8:00pm</span></li>
+                                    <li class="timing"><strong>Friday</strong><span>10:00am - 8:00pm</span></li>
+                                    <li class="timing"><strong>Saturday </strong><span>9:00am - 6:00pm</span></li>
+                                    <li class="timing"><strong>Sunday</strong><span>11:00am - 5:00pm</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">Tiff Nails Website | © 2018 Tiff Nails, All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+  
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+<script>
+
+    $(document).ready(function () {
+
+
+        $('#btnSave').click(function () {
+            debugger;
+
+            if ($("input[name=username]").val() == "") {
+                $('#message1').html('This field is required');
+                $('#message2').html('');
+                $('#message3').html('');
+                $('#message4').html('');
+                $('#message5').html('');
+            }
+            else if ($("input[name=email]").val() == "") {
+                $('#message2').html('This field is required');
+                $('#message1').html('');
+                $('#message3').html('');
+                $('#message4').html('');
+                $('#message5').html('');
+            }
+            else if ($("input[name=phn]").val() == "") {
+                $('#message3').html('This field is required');
+                $('#message1').html('');
+                $('#message2').html('');
+                $('#message4').html('');
+                $('#message5').html('');
+            }
+            else if ($("input[name=sub]").val() == "") {
+                $('#message4').html('This field is required');
+                $('#message1').html('');
+                $('#message2').html('');
+                $('#message3').html('');
+                $('#message5').html('');
+            }
+
+            else if ($("textarea[name=message]").val() == "") {
+                $('#message5').html('This field is required');
+                $('#message1').html('');
+                $('#message3').html('');
+                $('#message2').html('');
+                $('#message4').html('');
+            }
+
+            if ($("input[name=username]").val() != "" && $("input[name=sub]").val() != "" && $("input[name=email]").val() != "" && $("input[name=phn]").val() != "" && $("textarea[name=message]").val() != "") {
+
+                $.ajax({
+
+                    url: "/Home/Contact",
+                    data: { 'username': $("input[name=username]").val(), 'lastname': $("input[name=sub]").val(), 'Email': $("input[name=email]").val(), 'phn': $("input[name=phn]").val(), 'message': $("textarea[name=message]").val() },
+                    type: "POST",
+                    dataType: 'json',
+                    success: function (data) {
+                        debugger;
+                        alert('Mail has been sent to admin. You will be contacted shortly.');
+                        $('#message1').html('');
+                        $('#message3').html('');
+                        $('#message2').html('');
+                        $('#message4').html('');
+                        $('#message5').html('');
+                        $("input[name=username]").val('');
+                        $("input[name=lastname]").val('');
+                        $("input[name=email]").val('');
+                        $("input[name=phn]").val('');
+                        $("textarea[name=message]").val('');
+                        return false;
+                    },
+                    error: function () {
+
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            }
+        });
+    });
+</script>
